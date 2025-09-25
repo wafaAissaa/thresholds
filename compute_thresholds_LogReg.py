@@ -142,26 +142,30 @@ def get_input_threshold(x_values, y_labels):
 def compute_thresholds(thresholds, distributions):
 
     for classe, dico in distributions.items():
-        if classe == "N4": break
-        print('CLASSE:', classe)
-        for level, dico2 in dico.items():
-            for heuristic, values in dico2.items():
-                x_values = []
-                y_labels = []
-                # if heuristic != 'words_after_verb': continue
-                for c in classes:
-                    values = distributions[c][level][heuristic]
-                    x_values += [[v] for v in values]
-                    if classes.index(c) > classes.index(classe):
-                        y_labels += [1 for _ in range(len(values))]
-                    else:
-                        y_labels += [0 for _ in range(len(values))]
+        if classe != "N4":
+            print('CLASSE:', classe)
+            for level, dico2 in dico.items():
+                for heuristic, values in dico2.items():
+                    x_values = []
+                    y_labels = []
+                    # if heuristic != 'words_after_verb': continue
+                    for c in classes:
+                        values = distributions[c][level][heuristic]
+                        x_values += [[v] for v in values]
+                        if classes.index(c) > classes.index(classe):
+                            y_labels += [1 for _ in range(len(values))]
+                        else:
+                            y_labels += [0 for _ in range(len(values))]
 
-                print(classe, level, heuristic)
-                thresh = get_input_threshold(x_values, y_labels)
-                # print(round(thresh, 3))
+                    print(classe, level, heuristic)
+                    thresh = get_input_threshold(x_values, y_labels)
+                    # print(round(thresh, 3))
 
-                thresholds[classe][level][heuristic] = round(thresh, 3)
+                    thresholds[classe][level][heuristic] = round(thresh, 3)
+        else:
+
+
+            continue
 
     return thresholds
 
