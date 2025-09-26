@@ -50,7 +50,7 @@ def compute_threshold_N4(thresholds, distributions):
 
                 lower_bound, upper_bound = get_bounds(values)
                 # print(phenomenon, lower_bound, upper_bound)
-                if level == 'token-level-low':
+                if level == 'token-token-token-level-low':
                     thresholds['N4'][level][heuristic] = round(lower_bound, 4)
                 else:
                     thresholds['N4'][level][heuristic] = round(upper_bound, 4)
@@ -188,7 +188,7 @@ if __name__ == '__main__':
 
     if cv:
         thresholds = compute_thresholds(thresholds, distributions, cv=True)
-        with open('./results/thresholds_LogReg_CV.json', 'w') as f:
+        with open('results/thresholds_LogReg_CV.json', 'w') as f:
             json.dump(thresholds, f)
     else:
         thresholds = compute_thresholds(thresholds, distributions, cv=False)

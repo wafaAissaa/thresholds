@@ -66,24 +66,24 @@ token_level_low = {
       "lexical_frequency": None
     }
 
-thresholds_init = {"sentence-token-level": copy.deepcopy(sentence_token_level),
-                   "document-token-level": copy.deepcopy(document_token_level),
-                   "sentence-level": copy.deepcopy(sentence_level),
-                   "document-document-level":copy.deepcopy(document_document_level),
-                   "token-level-high": copy.deepcopy(token_level_high),
-                   "token-level-low": copy.deepcopy(token_level_low)}
+thresholds_init = {"document-sentence-token-level": copy.deepcopy(sentence_token_level),
+                   "document-document-token-level": copy.deepcopy(document_token_level),
+                   "sentence-sentence-sentence-level": copy.deepcopy(sentence_level),
+                   "document-document-document-level":copy.deepcopy(document_document_level),
+                   "token-token-token-level-high": copy.deepcopy(token_level_high),
+                   "token-token-token-level-low": copy.deepcopy(token_level_low)}
 
 classes = {'Très Facile':'N1', 'Facile': 'N2', 'Accessible':'N3','+Complexe':'N4'}
 
 thresholds = {'N1':copy.deepcopy(thresholds_init), 'N2':copy.deepcopy(thresholds_init), 'N3': copy.deepcopy(thresholds_init), 'N4':copy.deepcopy(thresholds_init)}
 densities = {'N1':copy.deepcopy(thresholds_init), 'N2':copy.deepcopy(thresholds_init), 'N3': copy.deepcopy(thresholds_init), 'N4':copy.deepcopy(thresholds_init)}
 
-distrib_levels = {"sentence-token-level": "document",
-                  "document-token-level": "document",
-                  "sentence-level": "sentence",
-                  "document-document-level": "document",
-                  "token-level-high": "token",
-                  "token-level-low": "token"}
+distrib_levels = {"document-sentence-token-level": "document",
+                  "document-document-token-level": "document",
+                  "sentence-sentence-sentence-level": "sentence",
+                  "document-document-document-level": "document",
+                  "token-token-token-level-high": "token",
+                  "token-token-token-level-low": "token"}
 
 
 def check_for_errors(folder_path):
@@ -144,7 +144,7 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
 
                 lower_bound, upper_bound = get_bounds(values)
                 #print(phenomenon, lower_bound, upper_bound)
-                if key == 'token-level-low':
+                if key == 'token-token-token-level-low':
                     dictionnary2[phenomenon] = round(lower_bound,4)
                     print(phenomenon, round(lower_bound,4))
                 else:

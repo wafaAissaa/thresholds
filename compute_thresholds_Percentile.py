@@ -40,7 +40,7 @@ def compute_thresholds(thresholds, distributions, q=5):
             for heuristic, values in dico2.items():
                 lower_bound, upper_bound = get_percentile(values, q)
                 print(classe, level, heuristic)
-                if level == 'token-level-low':
+                if level == 'token-token-token-level-low':
                     thresholds[classe][level][heuristic] = lower_bound #round(lower_bound, 4)
                 else:
                     thresholds[classe][level][heuristic] = upper_bound #round(upper_bound, 4)
