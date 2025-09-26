@@ -17,80 +17,12 @@ from tqdm import tqdm
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import StratifiedKFold
-from compute_thresholds_IQR import get_bounds
+from compute_thresholds_IQR import get_bounds, sentence_token_level, document_token_level, sentence_level, document_token_level, token_level_high, token_level_low, thresholds_init, thresholds, densities, distrib_levels
+import math
 
 
 import sklearn
 print(sklearn.__version__)
-
-
-sentence_token_level = {
-    "max_size_aux_verbs": None,
-    "max_size_passive": None,
-    "max_size_named_entities": None,
-    "max_size_np_pp_modifiers": None,
-    "max_size_subordination": None,
-    "max_size_coordination": None,
-    }
-document_token_level = {
-    "total_token_ratio_aux_verbs": None,
-    "total_token_ratio_passive": None,
-    "total_token_ratio_named_entities": None,
-    "total_token_ratio_subordination": None,
-    "ratio_clitic_per_token": None,
-    "ratio_post_clitic_pronouns_per_token": None,
-    "ratio_pre_clitic_pronouns_per_token": None,
-    "ratio_named_entities_per_token": None,
-    "ratio_aux_verbs_per_token": None,
-    "ratio_subordination_per_token": None,
-    "ratio_passive_per_token": None,
-    "sophisticated_ratio": None,
-    "concrete_ratio": None,
-    "hapax_legomena_lemma_ratio": None,
-    # "p0-p75_freq_ratio": None, missing from output
-    # "p0-p75_freq_lemma_ratio": None, missing from output
-    "ratio_aux_verbs_per_verb": None,
-    "ratio_subordination_per_verb": None,
-    "ratio_passive_per_verb": None,
-    "ratio_coordination_per_token": None,
-    "total_token_ratio_coordination": None,
-    "ratio_coordination_per_token": None,
-}
-
-sentence_level= {
-      "parse_depth": None,
-      "words_after_verb": None,
-      "words_before_verb": None,
-      "sentence_length": None
-    }
-
-document_document_level = {
-    "word_count": None,
-    "sentence_count": None,
-    "lexical_diversity": None}
-
-token_level_high = {
-      "word_length": None,
-      "word_syllables": None,
-      "ortho_neighbors": None,
-      "ortho_neighbors_+freq_cum": None,
-      "age_of_acquisition": None,
-      "complexity": None,
-    }
-
-token_level_low = {
-      "familiarity": None,
-      "lexical_frequency": None
-    }
-
-thresholds_init = {"sentence-token-level": copy.deepcopy(sentence_token_level), "document-token-level": copy.deepcopy(document_token_level), "sentence-level": copy.deepcopy(sentence_level), "document-document-level":copy.deepcopy(document_document_level), "token-level-high": copy.deepcopy(token_level_high), "token-level-low": copy.deepcopy(token_level_low)}
-
-classes = {'Très Facile':'N1', 'Facile': 'N2', 'Accessible':'N3','+Complexe':'N4'}
-
-thresholds = {'N1':copy.deepcopy(thresholds_init), 'N2':copy.deepcopy(thresholds_init), 'N3': copy.deepcopy(thresholds_init), 'N4':copy.deepcopy(thresholds_init)}
-densities = {'N1':copy.deepcopy(thresholds_init), 'N2':copy.deepcopy(thresholds_init), 'N3': copy.deepcopy(thresholds_init), 'N4':copy.deepcopy(thresholds_init)}
-
-distrib_levels = {"sentence-token-level": "document", "document-token-level": "document", "sentence-level": "sentence", "document-document-level": "document", "token-level-high": "token", "token-level-low": "token"}
 
 classes = ['N1', 'N2', 'N3', 'N4']
 
@@ -211,8 +143,6 @@ def get_input_threshold_CV(x_values, y_labels, cv_folds=5):
 
 
 
-
-
 def compute_thresholds(thresholds, distributions, cv=False):
 
     for classe, dico in distributions.items():
@@ -238,7 +168,10 @@ def compute_thresholds(thresholds, distributions, cv=False):
                         thresh = get_input_threshold(x_values, y_labels)
                     # print(round(thresh, 3))
 
-                    thresholds[classe][level][heuristic] = round(thresh, 3)
+                    if thresh is None or (isinstance(thresh, float) and math.isnan(thresh)):
+                        thresholds[classe][level][heuristic] = "NA"
+                    else:
+                        thresholds[classe][level][heuristic] = round(thresh, 3)
 
         else:
             compute_threshold_N4(thresholds, distributions)
@@ -249,7 +182,7 @@ def compute_thresholds(thresholds, distributions, cv=False):
 
 if __name__ == '__main__':
 
-    cv = False
+    cv = True
     with open('./results/distributions.json') as json_data:
         distributions = json.load(json_data)
 

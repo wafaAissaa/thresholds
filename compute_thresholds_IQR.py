@@ -14,6 +14,7 @@ sentence_token_level = {
     "max_size_subordination": None,
     "max_size_coordination": None,
     }
+
 document_token_level = {
     "total_token_ratio_aux_verbs": None,
     "total_token_ratio_passive": None,
@@ -65,14 +66,24 @@ token_level_low = {
       "lexical_frequency": None
     }
 
-thresholds_init = {"sentence-token-level": copy.deepcopy(sentence_token_level), "document-token-level": copy.deepcopy(document_token_level), "sentence-level": copy.deepcopy(sentence_level), "document-document-level":copy.deepcopy(document_document_level), "token-level-high": copy.deepcopy(token_level_high), "token-level-low": copy.deepcopy(token_level_low)}
+thresholds_init = {"sentence-token-level": copy.deepcopy(sentence_token_level),
+                   "document-token-level": copy.deepcopy(document_token_level),
+                   "sentence-level": copy.deepcopy(sentence_level),
+                   "document-document-level":copy.deepcopy(document_document_level),
+                   "token-level-high": copy.deepcopy(token_level_high),
+                   "token-level-low": copy.deepcopy(token_level_low)}
 
 classes = {'Très Facile':'N1', 'Facile': 'N2', 'Accessible':'N3','+Complexe':'N4'}
 
 thresholds = {'N1':copy.deepcopy(thresholds_init), 'N2':copy.deepcopy(thresholds_init), 'N3': copy.deepcopy(thresholds_init), 'N4':copy.deepcopy(thresholds_init)}
 densities = {'N1':copy.deepcopy(thresholds_init), 'N2':copy.deepcopy(thresholds_init), 'N3': copy.deepcopy(thresholds_init), 'N4':copy.deepcopy(thresholds_init)}
 
-distrib_levels = {"sentence-token-level": "document", "document-token-level": "document", "sentence-level": "sentence", "document-document-level": "document", "token-level-high": "token", "token-level-low": "token"}
+distrib_levels = {"sentence-token-level": "document",
+                  "document-token-level": "document",
+                  "sentence-level": "sentence",
+                  "document-document-level": "document",
+                  "token-level-high": "token",
+                  "token-level-low": "token"}
 
 
 def check_for_errors(folder_path):
