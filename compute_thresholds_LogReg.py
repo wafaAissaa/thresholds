@@ -17,7 +17,7 @@ from tqdm import tqdm
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import StratifiedKFold
-from compute_thresholds_IQR import get_bounds, sentence_token_level, document_token_level, sentence_level, document_token_level, token_level_high, token_level_low, thresholds_init, thresholds, densities, distrib_levels
+from compute_thresholds_IQR import plot_thresholds_table, get_bounds, sentence_token_level, document_token_level, sentence_level, document_token_level, token_level_high, token_level_low, thresholds_init, thresholds, densities, distrib_levels
 import math
 
 
@@ -188,9 +188,13 @@ if __name__ == '__main__':
 
     if cv:
         thresholds = compute_thresholds(thresholds, distributions, cv=True)
-        with open('results/thresholds_LogReg_CV.json', 'w') as f:
+        json_path = 'results/thresholds_LogReg_CV.json'
+        with open(json_path, 'w') as f:
             json.dump(thresholds, f)
     else:
         thresholds = compute_thresholds(thresholds, distributions, cv=False)
-        with open('./results/thresholds_LogReg.json', 'w') as f:
+        json_path = 'results/thresholds_LogReg.json'
+        with open(json_path, 'w') as f:
             json.dump(thresholds, f)
+
+    plot_thresholds_table(thresholds, json_path)

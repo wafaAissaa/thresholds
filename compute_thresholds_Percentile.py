@@ -17,7 +17,7 @@ from tqdm import tqdm
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import StratifiedKFold
-from compute_thresholds_IQR import get_bounds, sentence_token_level, document_token_level, sentence_level, document_token_level, token_level_high, token_level_low, thresholds_init, thresholds, densities, distrib_levels
+from compute_thresholds_IQR import plot_thresholds_table, get_bounds, sentence_token_level, document_token_level, sentence_level, document_token_level, token_level_high, token_level_low, thresholds_init, thresholds, densities, distrib_levels
 
 
 import sklearn
@@ -51,11 +51,13 @@ def compute_thresholds(thresholds, distributions, q=5):
 
 if __name__ == '__main__':
 
-    for q in range(20, 100, 5):
+    for q in range(5, 100, 5):
         with open('./results/distributions.json') as json_data:
             distributions = json.load(json_data)
 
         thresholds = compute_thresholds(thresholds, distributions, q)
-        with open('./results/thresholds_Percentile_%s.json' %q, 'w') as f:
+        json_path = './results/thresholds_Percentile_%s.json' %q
+        with open(json_path, 'w') as f:
             json.dump(thresholds, f)
 
+        plot_thresholds_table(thresholds, json_path)

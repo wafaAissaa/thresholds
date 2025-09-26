@@ -37,5 +37,5 @@ token-token-token-level-high/ortho_neighbors,10.0,9.0,8.0,8.0
 token-token-token-level-high/ortho_neighbors_+freq_cum,11242.619999999999,5258.94,7927.959999999999,4819.54
 token-token-token-level-high/age_of_acquisition,4.35483870967742,4.81646273637375,4.81646273637375,4.81646273637375
 token-token-token-level-high/complexity,1.0,1.0,1.0,1.0
-token-token-token-level-low/familiarity,6.75,6.75,6.75,6.75
-token-token-token-level-low/lexical_frequency,349.63800000000344,324.86,352.6460000000008,286.69
+token-token-token-level-low/familiarity,6.42857142857143,6.46428571428571,6.46428571428571,6.64285714285714
+token-token-token-level-low/lexical_frequency,1541.96,1398.85,1341.76,853.31

@@ -86,6 +86,26 @@ distrib_levels = {"document-sentence-token-level": "document",
                   "token-token-token-level-low": "token"}
 
 
+def plot_thresholds_table(thresholds, json_path):
+
+    flattened = {}
+
+    for text_id, categories in thresholds.items():
+        for category, features in categories.items():
+            for feature, value in features.items():
+                index = f"{category}/{feature}"
+                flattened.setdefault(index, {})[text_id] = value
+
+    df = pd.DataFrame.from_dict(flattened, orient='index')
+    df = df[['N1', 'N2', 'N3', 'N4']]  # ensure column order
+
+    csv_path = os.path.splitext(json_path)[0] + ".csv"
+
+    df.to_csv(csv_path, index=True)
+
+    return df
+
+
 def check_for_errors(folder_path):
     # Loop through all files in the folder
     for filename in os.listdir(folder_path):
@@ -138,7 +158,10 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
                     elif distrib_levels[key] == 'token':
                         for k, v in data['sentences'].items():
                             for k1, v1 in v['words'].items():
-                                if v1[phenomenon] not in ['-1', 'na', -1]: values.append(v1[phenomenon])
+                                if phenomenon == 'lexical_frequency':
+                                    if v1[phenomenon] not in  ['-1', 'na', -1, 1e-10]: values.append(v1[phenomenon])
+                                elif v1[phenomenon] not in ['-1', 'na', -1]: values.append(v1[phenomenon])
+
                 if densities:
                     densities[niveau][key][phenomenon] = values
 
@@ -157,9 +180,13 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
     return thresholds
 
 
+
 if __name__ == '__main__':
     df = pd.read_csv('./Qualtrics_Annotations_B.csv', delimiter="\t", index_col="text_indice")
     folder_path = "./outputs"
     thresholds, densities = compute_thresholds(thresholds, df, folder_path, densities)
-    with open('./results/thresholds_IQR.json', 'w') as f:
+    json_path = './results/thresholds_IQR.json'
+    with open(json_path, 'w') as f:
         json.dump(thresholds, f)
+
+    plot_thresholds_table(thresholds, json_path)
