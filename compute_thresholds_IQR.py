@@ -174,7 +174,7 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
                     dictionnary2[phenomenon] = round(upper_bound,4)
 
     if densities:
-        with open('./results/distributions.json', 'w') as f:
+        with open('results_document_compared/distributions.json', 'w') as f:
             json.dump(densities, f)
         return thresholds, densities
     return thresholds
@@ -185,7 +185,7 @@ if __name__ == '__main__':
     df = pd.read_csv('./Qualtrics_Annotations_B.csv', delimiter="\t", index_col="text_indice")
     folder_path = "./outputs"
     thresholds, densities = compute_thresholds(thresholds, df, folder_path, densities)
-    json_path = './results/thresholds_IQR.json'
+    json_path = 'results_document_compared/thresholds_IQR.json'
     with open(json_path, 'w') as f:
         json.dump(thresholds, f)
 

@@ -1,0 +1,206 @@
+{
+    "1": {
+        "sentence-sentence-token-level": {
+            "max_size_aux_verbs": 2.1,
+            "max_size_passive": 1.0,
+            "max_size_named_entities": 3.2000803434108067,
+            "max_size_coordination": "NA",
+            "max_size_np_pp_modifiers": 2.659484874866974,
+            "max_size_subordination": 23.464976315273383
+        },
+        "document-document-token-level": {
+            "total_token_ratio_aux_verbs": "NA",
+            "total_token_ratio_passive": 0.0010156929928753131,
+            "total_token_ratio_named_entities": "NA",
+            "total_token_ratio_coordination": "NA",
+            "total_token_ratio_subordination": "NA",
+            "ratio_clitic_pronouns_per_token": "NA",
+            "ratio_post_clitic_pronouns_per_token": "NA",
+            "ratio_pre_clitic_pronouns_per_token": "NA",
+            "ratio_named_entities_per_token": "NA",
+            "ratio_aux_verbs_per_token": "NA",
+            "ratio_subordination_per_token": "NA",
+            "ratio_passive_per_token": 0.0004682690273818541,
+            "ratio_coordination_per_token": "NA",
+            "hapax_legomena_lemma_ratio": "NA",
+            "ratio_aux_verbs_per_verb": "NA",
+            "ratio_subordination_per_verb": "NA",
+            "ratio_passive_per_verb": 0.005253711021476459,
+            "p0-p75_freq_ratio": 0.059140913959743496,
+            "p0-p75_freq_lemma_ratio": 0.07574711067933526
+        },
+        "document-document-document-level": {
+            "sentence_count": "NA",
+            "word_count": 320.9760640166029
+        },
+        "sentence-sentence-sentence-level": {
+            "parse_depth": 7.205934905502671,
+            "words_after_verb": 23.51596868904744,
+            "words_before_verb": 9.372573604397989,
+            "sentence_length": 28.0548296845528
+        },
+        "token-token-token-level-high": {
+            "word_length": 12.386599539642557,
+            "noun_modifier_depth": 3.8930497837774216,
+            "age_of_acquisition": 8.975561975455488,
+            "ortho_neighbors": "NA"
+        },
+        "token-token-token-level-low": {
+            "lexical_frequency": "NA",
+            "familiarity": "NA"
+        }
+    },
+    "2": {
+        "sentence-sentence-token-level": {
+            "max_size_aux_verbs": 3.1,
+            "max_size_passive": 2.1,
+            "max_size_named_entities": 3.279184229846148,
+            "max_size_coordination": "NA",
+            "max_size_np_pp_modifiers": 3.0210367892470864,
+            "max_size_subordination": 27.121590832261568
+        },
+        "document-document-token-level": {
+            "total_token_ratio_aux_verbs": "NA",
+            "total_token_ratio_passive": 0.0010718280642701852,
+            "total_token_ratio_named_entities": "NA",
+            "total_token_ratio_coordination": "NA",
+            "total_token_ratio_subordination": "NA",
+            "ratio_clitic_pronouns_per_token": "NA",
+            "ratio_post_clitic_pronouns_per_token": "NA",
+            "ratio_pre_clitic_pronouns_per_token": "NA",
+            "ratio_named_entities_per_token": "NA",
+            "ratio_aux_verbs_per_token": "NA",
+            "ratio_subordination_per_token": "NA",
+            "ratio_passive_per_token": 0.0005055618559769129,
+            "ratio_coordination_per_token": "NA",
+            "hapax_legomena_lemma_ratio": "NA",
+            "ratio_aux_verbs_per_verb": "NA",
+            "ratio_subordination_per_verb": "NA",
+            "ratio_passive_per_verb": 0.005443858008420459,
+            "p0-p75_freq_ratio": 0.06813242274313812,
+            "p0-p75_freq_lemma_ratio": 0.08748389249366846
+        },
+        "document-document-document-level": {
+            "sentence_count": "NA",
+            "word_count": 418.1505845866915
+        },
+        "sentence-sentence-sentence-level": {
+            "parse_depth": 8.52971072378762,
+            "words_after_verb": 33.027266438769786,
+            "words_before_verb": 12.016200004603009,
+            "sentence_length": 38.70379643148691
+        },
+        "token-token-token-level-high": {
+            "word_length": 13.054516815100756,
+            "noun_modifier_depth": 3.5853819584454896,
+            "age_of_acquisition": 9.785297537773559,
+            "ortho_neighbors": "NA"
+        },
+        "token-token-token-level-low": {
+            "lexical_frequency": "NA",
+            "familiarity": "NA"
+        }
+    },
+    "3": {
+        "sentence-sentence-token-level": {
+            "max_size_aux_verbs": 4.1,
+            "max_size_passive": 4.1,
+            "max_size_named_entities": 4.455313905665672,
+            "max_size_coordination": "NA",
+            "max_size_np_pp_modifiers": 3.207930254628204,
+            "max_size_subordination": 31.639520700446646
+        },
+        "document-document-token-level": {
+            "total_token_ratio_aux_verbs": "NA",
+            "total_token_ratio_passive": 0.004576184011433901,
+            "total_token_ratio_named_entities": "NA",
+            "total_token_ratio_coordination": "NA",
+            "total_token_ratio_subordination": "NA",
+            "ratio_clitic_pronouns_per_token": "NA",
+            "ratio_post_clitic_pronouns_per_token": "NA",
+            "ratio_pre_clitic_pronouns_per_token": "NA",
+            "ratio_named_entities_per_token": "NA",
+            "ratio_aux_verbs_per_token": "NA",
+            "ratio_subordination_per_token": "NA",
+            "ratio_passive_per_token": 0.0021427608097424563,
+            "ratio_coordination_per_token": "NA",
+            "hapax_legomena_lemma_ratio": "NA",
+            "ratio_aux_verbs_per_verb": "NA",
+            "ratio_subordination_per_verb": "NA",
+            "ratio_passive_per_verb": 0.024602628162545624,
+            "p0-p75_freq_ratio": 0.07436144649584256,
+            "p0-p75_freq_lemma_ratio": 0.09848340863881327
+        },
+        "document-document-document-level": {
+            "sentence_count": "NA",
+            "word_count": 472.3879751285972
+        },
+        "sentence-sentence-sentence-level": {
+            "parse_depth": 9.78864110978343,
+            "words_after_verb": 39.352247121562584,
+            "words_before_verb": 12.908703347411993,
+            "sentence_length": 46.66402723340012
+        },
+        "token-token-token-level-high": {
+            "word_length": 14.254429070160157,
+            "noun_modifier_depth": 4.714705295840872,
+            "age_of_acquisition": 10.077512597541894,
+            "ortho_neighbors": "NA"
+        },
+        "token-token-token-level-low": {
+            "lexical_frequency": "NA",
+            "familiarity": "NA"
+        }
+    },
+    "4": {
+        "sentence-sentence-token-level": {
+            "max_size_aux_verbs": 30,
+            "max_size_passive": 8.0,
+            "max_size_named_entities": 3.5,
+            "max_size_coordination": "NA",
+            "max_size_np_pp_modifiers": 3.5,
+            "max_size_subordination": 80.0
+        },
+        "document-document-token-level": {
+            "total_token_ratio_aux_verbs": "NA",
+            "total_token_ratio_passive": 1.0,
+            "total_token_ratio_named_entities": "NA",
+            "total_token_ratio_coordination": "NA",
+            "total_token_ratio_subordination": "NA",
+            "ratio_clitic_pronouns_per_token": "NA",
+            "ratio_post_clitic_pronouns_per_token": "NA",
+            "ratio_pre_clitic_pronouns_per_token": "NA",
+            "ratio_named_entities_per_token": "NA",
+            "ratio_aux_verbs_per_token": "NA",
+            "ratio_subordination_per_token": "NA",
+            "ratio_passive_per_token": 1.0,
+            "ratio_coordination_per_token": "NA",
+            "hapax_legomena_lemma_ratio": "NA",
+            "ratio_aux_verbs_per_verb": "NA",
+            "ratio_subordination_per_verb": "NA",
+            "ratio_passive_per_verb": 1.0,
+            "p0-p75_freq_ratio": 1.0,
+            "p0-p75_freq_lemma_ratio": 1.0
+        },
+        "document-document-document-level": {
+            "sentence_count": "NA",
+            "word_count": 817.5
+        },
+        "sentence-sentence-sentence-level": {
+            "parse_depth": 15.0,
+            "words_after_verb": 47.5,
+            "words_before_verb": 12.5,
+            "sentence_length": 300.0
+        },
+        "token-token-token-level-high": {
+            "word_length": 15.0,
+            "noun_modifier_depth": 30.0,
+            "age_of_acquisition": 13,
+            "ortho_neighbors": "NA"
+        },
+        "token-token-token-level-low": {
+            "lexical_frequency": "NA",
+            "familiarity": "NA"
+        }
+    }
+}
