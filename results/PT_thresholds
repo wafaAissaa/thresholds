@@ -1,0 +1,302 @@
+{
+  "N1": {
+    "document-document-token-level": {
+      "total_token_ratio_verbal_idioms": 0,
+      "total_token_ratio_support_verbs": 0.03,
+      "total_token_ratio_causative": 0,
+      "total_token_ratio_aux_verbs": 0.11,
+      "total_token_ratio_passive": 0.03,
+      "total_token_ratio_proverbs": 0,
+      "total_token_ratio_vocative": 0,
+      "total_token_ratio_named_entities": 0.14,
+      "total_token_ratio_coordination": 0.09,
+      "total_token_ratio_np_pp_modifiers": 0.09,
+      "total_token_ratio_subordination": 0.53,
+      "ratio_vocative_per_token": 0,
+      "ratio_echo_complements_per_token": 0,
+      "ratio_clitic_pronouns_per_token": 0.047345,
+      "ratio_post_clitic_pronouns_per_token": 0.031848,
+      "ratio_pre_clitic_pronouns_per_token": 0.016234,
+      "ratio_mid_clitic_pronouns_per_token": 0,
+      "ratio_named_entities_per_token": 0.092349,
+      "ratio_verbal_idioms_per_token": 0,
+      "ratio_support_verbs_per_token": 0.014793,
+      "ratio_causative_per_token": 0,
+      "ratio_aux_verbs_per_token": 0.048286,
+      "ratio_subordination_per_token": 0.08306,
+      "ratio_proverbs_per_token": 0,
+      "ratio_passive_per_token": 0.013415,
+      "ratio_coordination_per_token": 0.040784,
+      "ratio_np_pp_modifiers_per_token": 0.072929,
+      "hapax_legomena_lemma_ratio": 0.79524,
+      "sophisticated_ratio": 0.284051,
+      "p0-p75_freq_ratio": 0.112905,
+      "p0-p75_freq_lemma_ratio": 0.146313,
+      "abstract_ratio": 0.149052,
+      "polysemous_ratio": 0.268116,
+      "ratio_aux_verbs_per_verb": 0.357143,
+      "ratio_subordination_per_verb": 0.646308,
+      "ratio_passive_per_verb": 0.104167
+    },
+    "document-document-document-level": {
+      "sentence_count": 34,
+      "word_count": 452.25
+    },
+    "sentence-sentence-sentence-level": {
+      "word_count": 36,
+      "parse_depth": 6,
+      "sentence_length": 32.5,
+      "words_before_verb": 5,
+      "words_after_verb": 22.5,
+      "dialog_quotes": 0
+    },
+    "document-sentence-token-level": {
+      "max_size_verbal_idioms": 0,
+      "max_size_support_verbs": 2,
+      "max_size_causative": 0,
+      "max_size_aux_verbs": 7.5,
+      "max_size_passive": 2,
+      "max_size_proverbs": 0,
+      "max_size_vocative": 0,
+      "max_size_named_entities": 5,
+      "max_size_coordination": 2,
+      "max_size_np_pp_modifiers": 3.5,
+      "max_size_subordination": 26.5
+    },
+    "token-token-token-level-high": {
+      "word_length": 12,
+      "word_syllables": 6,
+      "ortho_neighbors": 2.5,
+      "age_of_acquisition": 4.78,
+      "noun_modifier_depth": 2.5
+    },
+    "token-token-token-level-low": {
+      "familiarity": 3.775
+    }
+  },
+  "N2": {
+    "document-document-token-level": {
+      "total_token_ratio_verbal_idioms": 0,
+      "total_token_ratio_support_verbs": 0.03,
+      "total_token_ratio_causative": 0,
+      "total_token_ratio_aux_verbs": 0.09,
+      "total_token_ratio_passive": 0.04,
+      "total_token_ratio_proverbs": 0,
+      "total_token_ratio_vocative": 0,
+      "total_token_ratio_named_entities": 0.13,
+      "total_token_ratio_coordination": 0.07,
+      "total_token_ratio_np_pp_modifiers": 0.08,
+      "total_token_ratio_subordination": 0.53,
+      "ratio_vocative_per_token": 0,
+      "ratio_echo_complements_per_token": 0,
+      "ratio_clitic_pronouns_per_token": 0.042534,
+      "ratio_post_clitic_pronouns_per_token": 0.028409,
+      "ratio_pre_clitic_pronouns_per_token": 0.020161,
+      "ratio_mid_clitic_pronouns_per_token": 0,
+      "ratio_named_entities_per_token": 0.07716,
+      "ratio_verbal_idioms_per_token": 0,
+      "ratio_support_verbs_per_token": 0.01497,
+      "ratio_causative_per_token": 0,
+      "ratio_aux_verbs_per_token": 0.041526,
+      "ratio_subordination_per_token": 0.085807,
+      "ratio_proverbs_per_token": 0,
+      "ratio_passive_per_token": 0.016556,
+      "ratio_coordination_per_token": 0.035348,
+      "ratio_np_pp_modifiers_per_token": 0.06885,
+      "hapax_legomena_lemma_ratio": 0.664069,
+      "sophisticated_ratio": 0.255039,
+      "p0-p75_freq_ratio": 0.111611,
+      "p0-p75_freq_lemma_ratio": 0.15739,
+      "abstract_ratio": 0.151774,
+      "polysemous_ratio": 0.232431,
+      "ratio_aux_verbs_per_verb": 0.340034,
+      "ratio_subordination_per_verb": 0.592857,
+      "ratio_passive_per_verb": 0.142857
+    },
+    "document-document-document-level": {
+      "sentence_count": 33.5,
+      "word_count": 595.5
+    },
+    "sentence-sentence-sentence-level": {
+      "word_count": 49,
+      "parse_depth": 6,
+      "sentence_length": 44.5,
+      "words_before_verb": 7.5,
+      "words_after_verb": 32.5,
+      "dialog_quotes": 0
+    },
+    "document-sentence-token-level": {
+      "max_size_verbal_idioms": 0,
+      "max_size_support_verbs": 2,
+      "max_size_causative": 0,
+      "max_size_aux_verbs": 4.5,
+      "max_size_passive": 2,
+      "max_size_proverbs": 0,
+      "max_size_vocative": 0,
+      "max_size_named_entities": 10,
+      "max_size_coordination": 4.5,
+      "max_size_np_pp_modifiers": 3.5,
+      "max_size_subordination": 33
+    },
+    "token-token-token-level-high": {
+      "word_length": 12,
+      "word_syllables": 6,
+      "ortho_neighbors": 2.5,
+      "age_of_acquisition": 5.64,
+      "noun_modifier_depth": 2.5
+    },
+    "token-token-token-level-low": {
+      "familiarity": 3.527
+    }
+  },
+  "N3": {
+    "document-document-token-level": {
+      "total_token_ratio_verbal_idioms": 0,
+      "total_token_ratio_support_verbs": 0.03,
+      "total_token_ratio_causative": 0,
+      "total_token_ratio_aux_verbs": 0.07,
+      "total_token_ratio_passive": 0.04,
+      "total_token_ratio_proverbs": 0,
+      "total_token_ratio_vocative": 0,
+      "total_token_ratio_named_entities": 0.13,
+      "total_token_ratio_coordination": 0.09,
+      "total_token_ratio_np_pp_modifiers": 0.09,
+      "total_token_ratio_subordination": 0.54,
+      "ratio_vocative_per_token": 0,
+      "ratio_echo_complements_per_token": 0,
+      "ratio_clitic_pronouns_per_token": 0.034865,
+      "ratio_post_clitic_pronouns_per_token": 0.025521,
+      "ratio_pre_clitic_pronouns_per_token": 0.016504,
+      "ratio_mid_clitic_pronouns_per_token": 0,
+      "ratio_named_entities_per_token": 0.072242,
+      "ratio_verbal_idioms_per_token": 0,
+      "ratio_support_verbs_per_token": 0.012804,
+      "ratio_causative_per_token": 0,
+      "ratio_aux_verbs_per_token": 0.035307,
+      "ratio_subordination_per_token": 0.079855,
+      "ratio_proverbs_per_token": 0,
+      "ratio_passive_per_token": 0.017123,
+      "ratio_coordination_per_token": 0.037135,
+      "ratio_np_pp_modifiers_per_token": 0.074145,
+      "hapax_legomena_lemma_ratio": 0.570224,
+      "sophisticated_ratio": 0.251912,
+      "p0-p75_freq_ratio": 0.117165,
+      "p0-p75_freq_lemma_ratio": 0.157974,
+      "abstract_ratio": 0.167899,
+      "polysemous_ratio": 0.240164,
+      "ratio_aux_verbs_per_verb": 0.297431,
+      "ratio_subordination_per_verb": 0.58742,
+      "ratio_passive_per_verb": 0.197368
+    },
+    "document-document-document-level": {
+      "sentence_count": 48,
+      "word_count": 1011
+    },
+    "sentence-sentence-sentence-level": {
+      "word_count": 61,
+      "parse_depth": 6,
+      "sentence_length": 54,
+      "words_before_verb": 10,
+      "words_after_verb": 42.5,
+      "dialog_quotes": 0
+    },
+    "document-sentence-token-level": {
+      "max_size_verbal_idioms": 0,
+      "max_size_support_verbs": 2,
+      "max_size_causative": 0,
+      "max_size_aux_verbs": 4.5,
+      "max_size_passive": 2,
+      "max_size_proverbs": 0,
+      "max_size_vocative": 0,
+      "max_size_named_entities": 8.5,
+      "max_size_coordination": 4.5,
+      "max_size_np_pp_modifiers": 3.5,
+      "max_size_subordination": 45
+    },
+    "token-token-token-level-high": {
+      "word_length": 14.5,
+      "word_syllables": 6,
+      "ortho_neighbors": 2.5,
+      "age_of_acquisition": 6.51,
+      "noun_modifier_depth": 2.5
+    },
+    "token-token-token-level-low": {
+      "familiarity": 3.01
+    }
+  },
+  "N4": {
+    "document-document-token-level": {
+      "total_token_ratio_verbal_idioms": 0,
+      "total_token_ratio_support_verbs": 0.02,
+      "total_token_ratio_causative": 0,
+      "total_token_ratio_aux_verbs": 0.07,
+      "total_token_ratio_passive": 0.04,
+      "total_token_ratio_proverbs": 0,
+      "total_token_ratio_vocative": 0,
+      "total_token_ratio_named_entities": 0.12,
+      "total_token_ratio_coordination": 0.08,
+      "total_token_ratio_np_pp_modifiers": 0.08,
+      "total_token_ratio_subordination": 0.51,
+      "ratio_vocative_per_token": 0,
+      "ratio_echo_complements_per_token": 0,
+      "ratio_clitic_pronouns_per_token": 0.032062,
+      "ratio_post_clitic_pronouns_per_token": 0.019994,
+      "ratio_pre_clitic_pronouns_per_token": 0.015987,
+      "ratio_mid_clitic_pronouns_per_token": 0,
+      "ratio_named_entities_per_token": 0.074592,
+      "ratio_verbal_idioms_per_token": 0,
+      "ratio_support_verbs_per_token": 0.011186,
+      "ratio_causative_per_token": 0,
+      "ratio_aux_verbs_per_token": 0.0313,
+      "ratio_subordination_per_token": 0.072945,
+      "ratio_proverbs_per_token": 0,
+      "ratio_passive_per_token": 0.013509,
+      "ratio_coordination_per_token": 0.035885,
+      "ratio_np_pp_modifiers_per_token": 0.072122,
+      "hapax_legomena_lemma_ratio": 0.54802,
+      "sophisticated_ratio": 0.240612,
+      "p0-p75_freq_ratio": 0.111846,
+      "p0-p75_freq_lemma_ratio": 0.152448,
+      "abstract_ratio": 0.167723,
+      "polysemous_ratio": 0.23215,
+      "ratio_aux_verbs_per_verb": 0.296559,
+      "ratio_subordination_per_verb": 0.560406,
+      "ratio_passive_per_verb": 0.156619
+    },
+    "document-document-document-level": {
+      "sentence_count": 50.5,
+      "word_count": 1217.5
+    },
+    "sentence-sentence-sentence-level": {
+      "word_count": 68.5,
+      "parse_depth": 8.5,
+      "sentence_length": 61.5,
+      "words_before_verb": 12.5,
+      "words_after_verb": 47.5,
+      "dialog_quotes": 0
+    },
+    "document-sentence-token-level": {
+      "max_size_verbal_idioms": 0,
+      "max_size_support_verbs": 2,
+      "max_size_causative": 0,
+      "max_size_aux_verbs": 4.5,
+      "max_size_passive": 2,
+      "max_size_proverbs": 0,
+      "max_size_vocative": 0,
+      "max_size_named_entities": 8.5,
+      "max_size_coordination": 4.5,
+      "max_size_np_pp_modifiers": 2,
+      "max_size_subordination": 54.12
+    },
+    "token-token-token-level-high": {
+      "word_length": 14.5,
+      "word_syllables": 6,
+      "ortho_neighbors": 2.5,
+      "age_of_acquisition": 6.6,
+      "noun_modifier_depth": 2.5
+    },
+    "token-token-token-level-low": {
+      "familiarity": 3.235
+    }
+  }
+}

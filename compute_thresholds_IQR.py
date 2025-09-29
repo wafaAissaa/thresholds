@@ -66,7 +66,7 @@ token_level_low = {
       "lexical_frequency": None
     }
 
-thresholds_init = {"document-sentence-token-level": copy.deepcopy(sentence_token_level), #"sentence-sentence-token-level": copy.deepcopy(sentence_token_level),
+thresholds_init = {"sentence-sentence-token-level": copy.deepcopy(sentence_token_level), #"document-sentence-token-level": copy.deepcopy(sentence_token_level), #
                    "document-document-token-level": copy.deepcopy(document_token_level),
                    "sentence-sentence-sentence-level": copy.deepcopy(sentence_level),
                    "document-document-document-level":copy.deepcopy(document_document_level),
@@ -78,7 +78,7 @@ classes = {'Très Facile':'N1', 'Facile': 'N2', 'Accessible':'N3','+Complexe':'N
 thresholds = {'N1':copy.deepcopy(thresholds_init), 'N2':copy.deepcopy(thresholds_init), 'N3': copy.deepcopy(thresholds_init), 'N4':copy.deepcopy(thresholds_init)}
 densities = {'N1':copy.deepcopy(thresholds_init), 'N2':copy.deepcopy(thresholds_init), 'N3': copy.deepcopy(thresholds_init), 'N4':copy.deepcopy(thresholds_init)}
 
-distrib_levels = {"document-sentence-token-level": "document", #"sentence-sentence-token-level": "sentence",
+distrib_levels = {"sentence-sentence-token-level": "sentence", #"document-sentence-token-level": "document",
                   "document-document-token-level": "document",
                   "sentence-sentence-sentence-level": "sentence",
                   "document-document-document-level": "document",
@@ -155,7 +155,7 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
                     elif distrib_levels[key] == 'sentence':
                         for k, v in data['sentences'].items():
                             if "max_size" in phenomenon:
-                                if v1[phenomenon] not in ['-1', 'na', -1, 0]: values.append(v1[phenomenon])
+                                if v['features'][phenomenon] not in ['-1', 'na', -1, 0]: values.append(v['features'][phenomenon])
                             elif v['features'][phenomenon] not in ['-1', 'na', -1]: values.append(v['features'][phenomenon])
                     elif distrib_levels[key] == 'token':
                         for k, v in data['sentences'].items():
@@ -176,7 +176,7 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
                     dictionnary2[phenomenon] = round(upper_bound,4)
 
     if densities:
-        with open('results_document_compared/distributions.json', 'w') as f:
+        with open('results/distributions.json', 'w') as f:
             json.dump(densities, f)
         return thresholds, densities
     return thresholds

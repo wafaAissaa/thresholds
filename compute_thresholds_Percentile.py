@@ -41,9 +41,9 @@ def compute_thresholds(thresholds, distributions, q=5):
                 lower_bound, upper_bound = get_percentile(values, q)
                 print(classe, level, heuristic)
                 if level == 'token-token-token-level-low':
-                    thresholds[classe][level][heuristic] = lower_bound #round(lower_bound, 4)
+                    thresholds[classe][level][heuristic] = round(lower_bound, 5) #lower_bound #
                 else:
-                    thresholds[classe][level][heuristic] = upper_bound #round(upper_bound, 4)
+                    thresholds[classe][level][heuristic] = round(upper_bound, 5) #upper_bound #
 
     return thresholds
 
@@ -52,7 +52,7 @@ def compute_thresholds(thresholds, distributions, q=5):
 if __name__ == '__main__':
 
     for q in range(5, 100, 5):
-        with open('results_document_compared/distributions.json') as json_data:
+        with open('./results/distributions.json') as json_data:
             distributions = json.load(json_data)
 
         thresholds = compute_thresholds(thresholds, distributions, q)
