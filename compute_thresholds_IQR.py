@@ -28,7 +28,7 @@ document_token_level = {
     "ratio_subordination_per_token": None,
     "ratio_passive_per_token": None,
     "sophisticated_ratio": None,
-    "concrete_ratio": None,
+    "concrete_ratio": None, # Worning: concrete ratio uses lower_bound
     "hapax_legomena_lemma_ratio": None,
     # "p0-p75_freq_ratio": None, missing from output
     # "p0-p75_freq_lemma_ratio": None, missing from output
@@ -151,18 +151,18 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
                         print('error in index %s' %i)
                         continue
                     if distrib_levels[key] == 'document':
-                        if data['features'][phenomenon] not in ['-1', 'na', -1]: values.append(data['features'][phenomenon])
+                        if data['features'][phenomenon] not in ['-1', 'na', 'NA', -1]: values.append(data['features'][phenomenon])
                     elif distrib_levels[key] == 'sentence':
                         for k, v in data['sentences'].items():
                             if "max_size" in phenomenon:
-                                if v['features'][phenomenon] not in ['-1', 'na', -1, 0]: values.append(v['features'][phenomenon])
-                            elif v['features'][phenomenon] not in ['-1', 'na', -1]: values.append(v['features'][phenomenon])
+                                if v['features'][phenomenon] not in ['-1', 'na', 'NA', -1, 0]: values.append(v['features'][phenomenon])
+                            elif v['features'][phenomenon] not in ['-1', 'na', 'NA', -1]: values.append(v['features'][phenomenon])
                     elif distrib_levels[key] == 'token':
                         for k, v in data['sentences'].items():
                             for k1, v1 in v['words'].items():
                                 if phenomenon == 'lexical_frequency':
-                                    if v1[phenomenon] not in  ['-1', 'na', -1, 1e-10]: values.append(v1[phenomenon])
-                                elif v1[phenomenon] not in ['-1', 'na', -1]: values.append(v1[phenomenon])
+                                    if v1[phenomenon] not in  ['-1', 'na', -1, 1e-10,'NA']: values.append(v1[phenomenon])
+                                elif v1[phenomenon] not in ['-1', 'na', -1, 'NA']: values.append(v1[phenomenon])
 
                 if densities:
                     densities[niveau][key][phenomenon] = values
