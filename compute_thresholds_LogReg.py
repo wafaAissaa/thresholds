@@ -52,6 +52,8 @@ def compute_threshold_N4(thresholds, distributions):
                 # print(phenomenon, lower_bound, upper_bound)
                 if level == 'token-token-token-level-low':
                     thresholds['N4'][level][heuristic] = round(lower_bound, 4)
+                elif heuristic == 'concrete_ratio':
+                    thresholds['N4'][level][heuristic] = round(lower_bound, 4)
                 else:
                     thresholds['N4'][level][heuristic] = round(upper_bound, 4)
         break # no need to loop again on all classes of distributions coz already done

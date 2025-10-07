@@ -28,7 +28,7 @@ document_token_level = {
     "ratio_subordination_per_token": None,
     "ratio_passive_per_token": None,
     "sophisticated_ratio": None,
-    "concrete_ratio": None, # Worning: concrete ratio uses lower_bound
+    "concrete_ratio": None, # Worning: concrete ratio uses lower bound
     "hapax_legomena_lemma_ratio": None,
     # "p0-p75_freq_ratio": None, missing from output
     # "p0-p75_freq_lemma_ratio": None, missing from output
@@ -171,7 +171,9 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
                 #print(phenomenon, lower_bound, upper_bound)
                 if key == 'token-token-token-level-low':
                     dictionnary2[phenomenon] = round(lower_bound,4)
-                    print(phenomenon, round(lower_bound,4))
+                    #print(phenomenon, round(lower_bound,4))
+                elif phenomenon == 'concrete_ratio':
+                    dictionnary2[phenomenon] = round(lower_bound, 4)
                 else:
                     dictionnary2[phenomenon] = round(upper_bound,4)
 

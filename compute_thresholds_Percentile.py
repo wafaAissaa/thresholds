@@ -42,6 +42,8 @@ def compute_thresholds(thresholds, distributions, q=5):
                 print(classe, level, heuristic)
                 if level == 'token-token-token-level-low':
                     thresholds[classe][level][heuristic] = round(lower_bound, 5) #lower_bound #
+                elif heuristic == 'concrete_ratio':
+                    thresholds[classe][level][heuristic] = round(lower_bound, 4)
                 else:
                     thresholds[classe][level][heuristic] = round(upper_bound, 5) #upper_bound #
 
