@@ -17,8 +17,8 @@ document-document-token-level/ratio_aux_verbs_per_token,0.0,0.00591,0.0097,0.008
 document-document-token-level/ratio_subordination_per_token,0.02088,0.035,0.04286,0.0539
 document-document-token-level/ratio_passive_per_token,0.0,0.0,0.0,0.0
 document-document-token-level/sophisticated_ratio,0.40926,0.37093,0.38354,0.38939
-document-document-token-level/concrete_ratio,0.45468,0.51178,0.49415,0.48642
-document-document-token-level/hapax_legomena_lemma_ratio,0.37865,0.21966,0.25187,0.24788
+document-document-token-level/concrete_ratio,0.09791,0.11166,0.0967,0.0839
+document-document-token-level/hapax_legomena_lemma_ratio,0.35406,0.2492,0.29397,0.30915
 document-document-token-level/ratio_aux_verbs_per_verb,0.0,0.06713,0.09516,0.0765
 document-document-token-level/ratio_subordination_per_verb,0.18333,0.44503,0.52371,0.58506
 document-document-token-level/ratio_passive_per_verb,0.0,0.0,0.0,0.0
@@ -33,9 +33,9 @@ document-document-document-level/sentence_count,3.3,11.0,11.0,13.0
 document-document-document-level/lexical_diversity,0.9439,0.97276,0.98253,0.98643
 token-token-token-level-high/word_length,2.0,2.0,2.0,2.0
 token-token-token-level-high/word_syllables,1.0,1.0,1.0,1.0
-token-token-token-level-high/ortho_neighbors,4.0,3.0,3.0,3.0
-token-token-token-level-high/ortho_neighbors_+freq_cum,89.9,137.27,128.38,121.51
-token-token-token-level-high/age_of_acquisition,4.0723,4.0723,4.35484,4.0723
+token-token-token-level-high/ortho_neighbors,2.0,2.0,1.0,1.0
+token-token-token-level-high/ortho_neighbors_+freq_cum,20.97,14.75,11.71,9.846
+token-token-token-level-high/age_of_acquisition,4.24472,4.35484,4.35484,4.35484
 token-token-token-level-high/complexity,1.0,1.0,1.0,1.0
-token-token-token-level-low/familiarity,6.89286,6.89286,6.89286,6.89286
-token-token-token-level-low/lexical_frequency,15832.09,13550.68,13550.68,13550.68
+token-token-token-level-low/familiarity,6.89286,6.85714,6.89286,6.89286
+token-token-token-level-low/lexical_frequency,13550.68,8795.14,8792.0115,8795.14

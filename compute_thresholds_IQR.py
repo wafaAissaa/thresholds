@@ -161,7 +161,7 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
                         for k, v in data['sentences'].items():
                             for k1, v1 in v['words'].items():
                                 if phenomenon == 'lexical_frequency':
-                                    if v1[phenomenon] not in  ['-1', 'na', -1, 1e-10,'NA']: values.append(v1[phenomenon])
+                                    if v1[phenomenon] not in  ['-1', 'na', -1, 1e-10, 'NA']: values.append(v1[phenomenon])
                                 elif v1[phenomenon] not in ['-1', 'na', -1, 'NA']: values.append(v1[phenomenon])
 
                 if densities:
@@ -186,7 +186,7 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
 
 if __name__ == '__main__':
     df = pd.read_csv('./Qualtrics_Annotations_B.csv', delimiter="\t", index_col="text_indice")
-    folder_path = "./outputs"
+    folder_path = "outputs"
     thresholds, densities = compute_thresholds(thresholds, df, folder_path, densities)
     json_path = 'results/thresholds_IQR.json'
     with open(json_path, 'w') as f:

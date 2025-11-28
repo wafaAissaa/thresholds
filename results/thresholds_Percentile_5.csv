@@ -17,8 +17,8 @@ document-document-token-level/ratio_aux_verbs_per_token,0.06294,0.05474,0.04166,
 document-document-token-level/ratio_subordination_per_token,0.08309,0.08959,0.1017,0.10865
 document-document-token-level/ratio_passive_per_token,0.01722,0.01045,0.00994,0.0094
 document-document-token-level/sophisticated_ratio,0.65473,0.66688,0.66422,0.62933
-document-document-token-level/concrete_ratio,0.23852,0.24593,0.23082,0.26546
-document-document-token-level/hapax_legomena_lemma_ratio,0.65587,0.51198,0.49546,0.5467
+document-document-token-level/concrete_ratio,0.0,0.03902,0.04,0.02774
+document-document-token-level/hapax_legomena_lemma_ratio,0.61448,0.46496,0.44503,0.41414
 document-document-token-level/ratio_aux_verbs_per_verb,0.7,0.50728,0.46889,0.33802
 document-document-token-level/ratio_subordination_per_verb,1.05,0.84518,0.875,0.93125
 document-document-token-level/ratio_passive_per_verb,0.1325,0.125,0.11683,0.13011
@@ -32,10 +32,10 @@ document-document-document-level/word_count,190.5,307.8,335.15,327.35
 document-document-document-level/sentence_count,22.3,31.4,29.0,22.35
 document-document-document-level/lexical_diversity,1.0,1.0,1.0,1.0
 token-token-token-level-high/word_length,9.0,9.0,10.0,10.0
-token-token-token-level-high/word_syllables,2.0,3.0,3.0,3.0
-token-token-token-level-high/ortho_neighbors,46.0,46.0,24.0,19.0
-token-token-token-level-high/ortho_neighbors_+freq_cum,86631.11,86631.11,86631.11,86631.11
-token-token-token-level-high/age_of_acquisition,7.05784,6.8109,6.88877,7.23915
+token-token-token-level-high/word_syllables,3.0,3.0,3.0,3.0
+token-token-token-level-high/ortho_neighbors,46.0,19.0,17.0,16.0
+token-token-token-level-high/ortho_neighbors_+freq_cum,35990.43,31848.88,29103.9,16330.16
+token-token-token-level-high/age_of_acquisition,7.05784,6.8109,7.1713,7.23915
 token-token-token-level-high/complexity,4.0,4.0,4.0,4.0
-token-token-token-level-low/familiarity,4.39286,4.13,4.04,4.04
-token-token-token-level-low/lexical_frequency,9.7885,6.08,3.24,6.22
+token-token-token-level-low/familiarity,4.10714,4.13,4.11,4.03571
+token-token-token-level-low/lexical_frequency,6.15,8.72,5.74,4.86

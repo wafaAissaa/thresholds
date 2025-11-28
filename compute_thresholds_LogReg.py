@@ -185,17 +185,17 @@ def compute_thresholds(thresholds, distributions, cv=False):
 if __name__ == '__main__':
 
     cv = False
-    with open('results/distributions.json') as json_data:
+    with open('results_depricated/distributions.json') as json_data:
         distributions = json.load(json_data)
 
     if cv:
         thresholds = compute_thresholds(thresholds, distributions, cv=True)
-        json_path = 'results/thresholds_LogReg_CV.json'
+        json_path = 'results_depricated/thresholds_LogReg_CV.json'
         with open(json_path, 'w') as f:
             json.dump(thresholds, f)
     else:
         thresholds = compute_thresholds(thresholds, distributions, cv=False)
-        json_path = 'results/thresholds_LogReg.json'
+        json_path = 'results_depricated/thresholds_LogReg.json'
         with open(json_path, 'w') as f:
             json.dump(thresholds, f)
 

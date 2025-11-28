@@ -17,8 +17,8 @@ document-document-token-level/ratio_aux_verbs_per_token,0.03247,0.024,0.02372,0.
 document-document-token-level/ratio_subordination_per_token,0.03616,0.06667,0.07022,0.08159
 document-document-token-level/ratio_passive_per_token,0.0,0.00402,0.00399,0.00414
 document-document-token-level/sophisticated_ratio,0.57758,0.54355,0.51399,0.46725
-document-document-token-level/concrete_ratio,0.29488,0.37363,0.37312,0.39123
-document-document-token-level/hapax_legomena_lemma_ratio,0.56199,0.38636,0.36975,0.38946
+document-document-token-level/concrete_ratio,0.05517,0.06863,0.0642,0.05031
+document-document-token-level/hapax_legomena_lemma_ratio,0.53597,0.34483,0.36565,0.37212
 document-document-token-level/ratio_aux_verbs_per_verb,0.23611,0.22222,0.25,0.19071
 document-document-token-level/ratio_subordination_per_verb,0.70833,0.625,0.69415,0.73229
 document-document-token-level/ratio_passive_per_verb,0.0,0.03846,0.04496,0.04375
@@ -32,10 +32,10 @@ document-document-document-level/word_count,109.0,237.0,283.75,312.0
 document-document-document-level/sentence_count,9.5,20.0,19.0,18.25
 document-document-document-level/lexical_diversity,1.0,0.99187,0.99548,0.9963
 token-token-token-level-high/word_length,5.0,6.0,6.0,6.0
-token-token-token-level-high/word_syllables,1.0,1.0,2.0,2.0
-token-token-token-level-high/ortho_neighbors,15.0,15.0,15.0,15.0
-token-token-token-level-high/ortho_neighbors_+freq_cum,35304.46,24555.15,24555.15,24555.15
-token-token-token-level-high/age_of_acquisition,5.42186,5.53281,5.53281,5.28365
+token-token-token-level-high/word_syllables,2.0,2.0,2.0,2.0
+token-token-token-level-high/ortho_neighbors,9.0,8.0,7.0,6.0
+token-token-token-level-high/ortho_neighbors_+freq_cum,1038.95,604.69,467.7925,355.29
+token-token-token-level-high/age_of_acquisition,5.41935,5.63515,5.66963,5.70857
 token-token-token-level-high/complexity,1.0,2.0,2.0,2.0
-token-token-token-level-low/familiarity,5.88,5.53571,5.53571,5.53571
-token-token-token-level-low/lexical_frequency,109.6125,101.15,95.0,96.01
+token-token-token-level-low/familiarity,5.53571,5.63,5.60857,5.62
+token-token-token-level-low/lexical_frequency,84.325,145.07,119.66,106.315

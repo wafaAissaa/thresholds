@@ -17,8 +17,8 @@ document-document-token-level/ratio_aux_verbs_per_token,0.01626,0.01858,0.01814,
 document-document-token-level/ratio_subordination_per_token,0.03459,0.05966,0.0644,0.07336
 document-document-token-level/ratio_passive_per_token,0.0,0.0,0.00306,0.00326
 document-document-token-level/sophisticated_ratio,0.5511,0.48043,0.481,0.45948
-document-document-token-level/concrete_ratio,0.33178,0.40367,0.41203,0.40795
-document-document-token-level/hapax_legomena_lemma_ratio,0.53263,0.34093,0.34,0.33205
+document-document-token-level/concrete_ratio,0.07081,0.08045,0.07357,0.0628
+document-document-token-level/hapax_legomena_lemma_ratio,0.50354,0.31243,0.34401,0.36315
 document-document-token-level/ratio_aux_verbs_per_verb,0.1775,0.17888,0.19365,0.16792
 document-document-token-level/ratio_subordination_per_verb,0.60652,0.57066,0.64014,0.65107
 document-document-token-level/ratio_passive_per_verb,0.0,0.0,0.0303,0.03467
@@ -33,9 +33,9 @@ document-document-document-level/sentence_count,5.7,18.0,17.0,16.15
 document-document-document-level/lexical_diversity,0.95517,0.98797,0.99238,0.99386
 token-token-token-level-high/word_length,4.0,4.0,5.0,5.0
 token-token-token-level-high/word_syllables,1.0,1.0,1.0,1.0
-token-token-token-level-high/ortho_neighbors,14.0,12.0,12.0,11.0
-token-token-token-level-high/ortho_neighbors_+freq_cum,19149.1,16911.4,16911.4,16911.4
-token-token-token-level-high/age_of_acquisition,4.81646,5.03448,5.03448,4.85317
-token-token-token-level-high/complexity,1.0,1.0,1.0,1.0
-token-token-token-level-low/familiarity,6.01,6.0,6.14,6.07143
-token-token-token-level-low/lexical_frequency,353.45,328.45,324.8,266.62
+token-token-token-level-high/ortho_neighbors,6.0,5.0,4.0,4.0
+token-token-token-level-high/ortho_neighbors_+freq_cum,264.058,280.07,191.16,152.26
+token-token-token-level-high/age_of_acquisition,4.81646,5.1079,5.17976,5.1079
+token-token-token-level-high/complexity,1.0,1.0,1.0,2.0
+token-token-token-level-low/familiarity,6.0,6.14286,6.17857,6.32143
+token-token-token-level-low/lexical_frequency,270.68,463.068,395.27,379.3925

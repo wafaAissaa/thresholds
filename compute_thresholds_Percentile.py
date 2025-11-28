@@ -54,7 +54,7 @@ def compute_thresholds(thresholds, distributions, q=5):
 if __name__ == '__main__':
 
     for q in range(5, 100, 5):
-        with open('./results/distributions.json') as json_data:
+        with open('results/distributions.json') as json_data:
             distributions = json.load(json_data)
 
         thresholds = compute_thresholds(thresholds, distributions, q)
