@@ -17,7 +17,7 @@ document-document-token-level/ratio_aux_verbs_per_token,0.05244,0.04131,0.037,0.
 document-document-token-level/ratio_subordination_per_token,0.07124,0.08129,0.08444,0.09068
 document-document-token-level/ratio_passive_per_token,0.00635,0.00719,0.00779,0.00819
 document-document-token-level/sophisticated_ratio,0.65073,0.61707,0.5809,0.55679
-document-document-token-level/concrete_ratio,0.68386,0.63762,0.62295,0.56301
+document-document-token-level/concrete_ratio,0.27408,0.27901,0.29244,0.36379
 document-document-token-level/hapax_legomena_lemma_ratio,0.62652,0.46163,0.45055,0.41714
 document-document-token-level/ratio_aux_verbs_per_verb,0.61333,0.37368,0.35504,0.28022
 document-document-token-level/ratio_subordination_per_verb,0.8,0.77018,0.81979,0.84025

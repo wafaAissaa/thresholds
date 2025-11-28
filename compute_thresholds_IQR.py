@@ -184,7 +184,6 @@ def compute_thresholds(thresholds, df, outputs_path, densities = None):
     return thresholds
 
 
-
 if __name__ == '__main__':
     df = pd.read_csv('./Qualtrics_Annotations_B.csv', delimiter="\t", index_col="text_indice")
     folder_path = "./outputs"
