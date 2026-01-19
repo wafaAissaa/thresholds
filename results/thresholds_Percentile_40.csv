@@ -7,12 +7,12 @@ sentence-sentence-token-level/max_size_subordination,5.4,7.0,10.0,12.0
 sentence-sentence-token-level/max_size_coordination,1.0,1.0,1.0,1.0
 document-document-token-level/total_token_ratio_aux_verbs,0.02849,0.03191,0.0329,0.03041
 document-document-token-level/total_token_ratio_passive,0.0,0.0,0.0051,0.00606
-document-document-token-level/total_token_ratio_named_entities,0.12276,0.09163,0.0855,0.05914
+document-document-token-level/total_token_ratio_named_entities,0.03481,0.05022,0.04288,0.03591
 document-document-token-level/total_token_ratio_subordination,0.14965,0.3009,0.39684,0.46881
 document-document-token-level/ratio_clitic_per_token,0.06735,0.06809,0.05241,0.05514
 document-document-token-level/ratio_post_clitic_pronouns_per_token,0.0,0.0,0.0,0.00155
 document-document-token-level/ratio_pre_clitic_pronouns_per_token,0.06735,0.06473,0.05131,0.05287
-document-document-token-level/ratio_named_entities_per_token,0.06548,0.05506,0.04925,0.04045
+document-document-token-level/ratio_named_entities_per_token,0.02211,0.035,0.0278,0.02145
 document-document-token-level/ratio_aux_verbs_per_token,0.01425,0.01553,0.01634,0.01492
 document-document-token-level/ratio_subordination_per_token,0.03368,0.05314,0.06098,0.07287
 document-document-token-level/ratio_passive_per_token,0.0,0.0,0.00255,0.00303
@@ -38,4 +38,4 @@ token-token-token-level-high/ortho_neighbors_+freq_cum,151.484,152.26,110.178,97
 token-token-token-level-high/age_of_acquisition,4.81646,5.03003,5.03448,5.03003
 token-token-token-level-high/complexity,1.0,1.0,1.0,1.0
 token-token-token-level-low/familiarity,6.196,6.42857,6.43,6.46429
-token-token-token-level-low/lexical_frequency,446.512,869.8,741.35,761.28
+token-token-token-level-low/lexical_frequency,449.774,896.01,790.0,821.55

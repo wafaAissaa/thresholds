@@ -1,18 +1,18 @@
 ,N1,N2,N3,N4
 sentence-sentence-token-level/max_size_aux_verbs,2.2,2.0,2.0,2.0
 sentence-sentence-token-level/max_size_passive,3.8,3.0,3.0,3.0
-sentence-sentence-token-level/max_size_named_entities,4.0,5.0,5.0,4.0
+sentence-sentence-token-level/max_size_named_entities,3.8,4.0,4.0,3.35
 sentence-sentence-token-level/max_size_np_pp_modifiers,16.0,7.0,8.0,8.0
 sentence-sentence-token-level/max_size_subordination,19.3,18.0,26.0,30.7
 sentence-sentence-token-level/max_size_coordination,4.05,3.0,3.0,3.0
 document-document-token-level/total_token_ratio_aux_verbs,0.14353,0.11365,0.08744,0.05988
 document-document-token-level/total_token_ratio_passive,0.03835,0.02092,0.02031,0.02165
-document-document-token-level/total_token_ratio_named_entities,0.29819,0.25991,0.22224,0.1367
+document-document-token-level/total_token_ratio_named_entities,0.22223,0.1455,0.13232,0.08715
 document-document-token-level/total_token_ratio_subordination,0.5424,0.55667,0.64223,0.66577
 document-document-token-level/ratio_clitic_per_token,0.17632,0.12961,0.12033,0.10974
 document-document-token-level/ratio_post_clitic_pronouns_per_token,0.07149,0.01185,0.01139,0.00835
 document-document-token-level/ratio_pre_clitic_pronouns_per_token,0.16047,0.12642,0.11534,0.10974
-document-document-token-level/ratio_named_entities_per_token,0.12905,0.11538,0.09679,0.08025
+document-document-token-level/ratio_named_entities_per_token,0.11777,0.07888,0.07071,0.06082
 document-document-token-level/ratio_aux_verbs_per_token,0.06294,0.05474,0.04166,0.02825
 document-document-token-level/ratio_subordination_per_token,0.08309,0.08959,0.1017,0.10865
 document-document-token-level/ratio_passive_per_token,0.01722,0.01045,0.00994,0.0094
@@ -38,4 +38,4 @@ token-token-token-level-high/ortho_neighbors_+freq_cum,35990.43,31848.88,29103.9
 token-token-token-level-high/age_of_acquisition,7.05784,6.8109,7.1713,7.23915
 token-token-token-level-high/complexity,4.0,4.0,4.0,4.0
 token-token-token-level-low/familiarity,4.10714,4.13,4.11,4.03571
-token-token-token-level-low/lexical_frequency,6.15,8.72,5.74,4.86
+token-token-token-level-low/lexical_frequency,6.15,8.78,5.88,4.93

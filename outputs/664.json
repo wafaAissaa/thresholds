@@ -21,10 +21,10 @@
         "ratio_aux_verbs_per_verb": 0.11842105263157894,
         "total_token_ratio_aux_verbs": 0.05309734513274336,
         "max_size_aux_verbs": 2,
-        "ratio_named_entities_per_token": 0.061946902654867256,
-        "ratio_named_entities_per_verb": 0.27631578947368424,
-        "total_token_ratio_named_entities": 0.2890855457227139,
-        "max_size_named_entities": 8,
+        "ratio_named_entities_per_token": 0.0058997050147492625,
+        "ratio_named_entities_per_verb": 0.02631578947368421,
+        "total_token_ratio_named_entities": 0.011799410029498525,
+        "max_size_named_entities": 2,
         "ratio_subordination_per_token": 0.12684365781710916,
         "ratio_subordination_per_verb": 0.5657894736842105,
         "total_token_ratio_subordination": 0.39233038348082594,
@@ -199,7 +199,7 @@
                     "passive": "O",
                     "clitic_type": "postclitic",
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -226,7 +226,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -253,7 +253,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -280,7 +280,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -307,7 +307,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -382,7 +382,7 @@
                     "ortho_neighbors_+freq_cum": 16330.16,
                     "age_of_acquisition": 5.7119021134594,
                     "familiarity": 7.0,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": 3315.95,
                     "complexity": "na",
                     "hapax_legomena_lemma": 0,
                     "concrete": false,
@@ -448,7 +448,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I1"
                     ],
@@ -477,7 +477,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I1"
                     ],
@@ -506,7 +506,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I1"
                     ],
@@ -535,7 +535,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I1"
                     ],
@@ -632,7 +632,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I1"
                     ],
@@ -669,7 +669,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I1"
                     ],
@@ -698,7 +698,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I1"
                     ],
@@ -727,7 +727,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I1"
                     ],
@@ -758,10 +758,10 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.08333333333333333,
-                "ratio_named_entities_per_verb": 0.6666666666666666,
-                "total_token_ratio_named_entities": 0.5416666666666666,
-                "max_size_named_entities": 5,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 4,
                 "max_size_subordination": 13,
                 "words_before_verb": 2,
@@ -1783,7 +1783,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -1810,7 +1810,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -1837,7 +1837,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -1864,7 +1864,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -1891,7 +1891,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "B2"
                     ],
@@ -1918,9 +1918,9 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.0625,
-                "ratio_named_entities_per_verb": 0.25,
-                "total_token_ratio_named_entities": 0.3125,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 3,
                 "max_size_subordination": 2,
@@ -2085,7 +2085,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -2112,7 +2112,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -2199,7 +2199,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -2228,10 +2228,10 @@
                 "ratio_aux_verbs_per_verb": 1.0,
                 "total_token_ratio_aux_verbs": 0.2,
                 "max_size_aux_verbs": 2,
-                "ratio_named_entities_per_token": 0.1,
-                "ratio_named_entities_per_verb": 1.0,
-                "total_token_ratio_named_entities": 0.3,
-                "max_size_named_entities": 2,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 2,
                 "max_size_subordination": 0,
                 "words_before_verb": 2,
@@ -2426,7 +2426,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -2453,7 +2453,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -2486,7 +2486,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -2513,7 +2513,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -2542,9 +2542,9 @@
                 "ratio_aux_verbs_per_verb": 1.0,
                 "total_token_ratio_aux_verbs": 0.2,
                 "max_size_aux_verbs": 2,
-                "ratio_named_entities_per_token": 0.1,
-                "ratio_named_entities_per_verb": 1.0,
-                "total_token_ratio_named_entities": 0.4,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 2,
                 "max_size_subordination": 0,
@@ -3227,7 +3227,7 @@
                     "ortho_neighbors_+freq_cum": 16330.16,
                     "age_of_acquisition": 5.7119021134594,
                     "familiarity": 7.0,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": 3315.95,
                     "complexity": "na",
                     "hapax_legomena_lemma": 0,
                     "concrete": false,
@@ -3294,7 +3294,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I0",
                         "I1"
@@ -3413,10 +3413,10 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.05555555555555555,
-                "ratio_named_entities_per_verb": 0.3333333333333333,
-                "total_token_ratio_named_entities": 0.05555555555555555,
-                "max_size_named_entities": 1,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 9,
                 "words_before_verb": 1,
@@ -3561,7 +3561,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -3588,7 +3588,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -3615,7 +3615,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -3642,7 +3642,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -3669,7 +3669,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "B1"
                     ],
@@ -3696,9 +3696,9 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.1111111111111111,
-                "ratio_named_entities_per_verb": 0.25,
-                "total_token_ratio_named_entities": 0.5555555555555556,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 1,
@@ -4345,7 +4345,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -4374,7 +4374,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -4403,7 +4403,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -4428,7 +4428,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -4436,7 +4436,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -4465,7 +4465,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -4494,7 +4494,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -4523,7 +4523,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -4579,10 +4579,10 @@
                 "ratio_aux_verbs_per_verb": 0.5,
                 "total_token_ratio_aux_verbs": 0.13333333333333333,
                 "max_size_aux_verbs": 2,
-                "ratio_named_entities_per_token": 0.06666666666666667,
-                "ratio_named_entities_per_verb": 0.5,
-                "total_token_ratio_named_entities": 0.4666666666666667,
-                "max_size_named_entities": 7,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 3,
                 "max_size_subordination": 12,
                 "words_before_verb": 2,
@@ -4746,7 +4746,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -4773,7 +4773,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -4806,7 +4806,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -4833,7 +4833,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -4862,9 +4862,9 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.1111111111111111,
-                "ratio_named_entities_per_verb": 1.0,
-                "total_token_ratio_named_entities": 0.4444444444444444,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 2,
                 "max_size_subordination": 0,
@@ -5039,7 +5039,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -5066,7 +5066,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -5184,7 +5184,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -5211,7 +5211,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -5238,7 +5238,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -5265,7 +5265,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -5292,7 +5292,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "B1"
                     ],
@@ -5319,10 +5319,10 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.13333333333333333,
-                "ratio_named_entities_per_verb": 0.5,
-                "total_token_ratio_named_entities": 0.4666666666666667,
-                "max_size_named_entities": 2,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 3,
                 "words_before_verb": 1,
@@ -5746,7 +5746,7 @@
                     "ortho_neighbors_+freq_cum": 14079.82,
                     "age_of_acquisition": 5.7119021134594,
                     "familiarity": 7.0,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": 3315.95,
                     "complexity": "na",
                     "hapax_legomena_lemma": 0,
                     "concrete": false,
@@ -5929,7 +5929,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I0",
                         "I1"
@@ -5959,7 +5959,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0",
                         "I1"
@@ -5989,7 +5989,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0",
                         "I1"
@@ -6113,7 +6113,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -6142,7 +6142,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -6171,7 +6171,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -6200,7 +6200,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -6229,7 +6229,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0",
                         "B4"
@@ -6257,10 +6257,10 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.09523809523809523,
-                "ratio_named_entities_per_verb": 0.2857142857142857,
-                "total_token_ratio_named_entities": 0.38095238095238093,
-                "max_size_named_entities": 3,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 17,
                 "words_before_verb": 2,
@@ -6912,7 +6912,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -6939,7 +6939,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -6966,7 +6966,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -6993,7 +6993,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -7020,7 +7020,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "B0"
                     ],
@@ -7047,9 +7047,9 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.1,
-                "ratio_named_entities_per_verb": 0.5,
-                "total_token_ratio_named_entities": 0.5,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 3,
                 "max_size_subordination": 1,
@@ -7805,7 +7805,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -7832,7 +7832,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "B0",
                         "B1"
@@ -7862,7 +7862,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0",
                         "I1"
@@ -7892,7 +7892,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -7919,7 +7919,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -7946,7 +7946,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -7973,7 +7973,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -8000,7 +8000,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "B2"
                     ],
@@ -8027,9 +8027,9 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.09090909090909091,
-                "ratio_named_entities_per_verb": 0.25,
-                "total_token_ratio_named_entities": 0.7272727272727273,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 2,
@@ -8668,7 +8668,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -8695,7 +8695,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -8722,7 +8722,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -8745,7 +8745,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -8892,7 +8892,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -8919,7 +8919,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -8946,7 +8946,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -8973,7 +8973,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -9000,7 +9000,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -9025,10 +9025,10 @@
                 "ratio_aux_verbs_per_verb": 0.5,
                 "total_token_ratio_aux_verbs": 0.1,
                 "max_size_aux_verbs": 2,
-                "ratio_named_entities_per_token": 0.1,
-                "ratio_named_entities_per_verb": 1.0,
-                "total_token_ratio_named_entities": 0.4,
-                "max_size_named_entities": 3,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 3,
                 "max_size_subordination": 0,
                 "words_before_verb": 2,
@@ -9105,7 +9105,7 @@
                     "ortho_neighbors_+freq_cum": 16330.16,
                     "age_of_acquisition": 5.7119021134594,
                     "familiarity": 7.0,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": 3315.95,
                     "complexity": "na",
                     "hapax_legomena_lemma": 0,
                     "concrete": false,
@@ -9171,7 +9171,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -9200,7 +9200,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -9229,7 +9229,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -9258,7 +9258,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -9355,7 +9355,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -9392,7 +9392,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -9421,7 +9421,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -9450,7 +9450,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I0"
                     ],
@@ -9481,10 +9481,10 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.07142857142857142,
-                "ratio_named_entities_per_verb": 1.0,
-                "total_token_ratio_named_entities": 0.5714285714285714,
-                "max_size_named_entities": 4,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 4,
                 "max_size_subordination": 13,
                 "words_before_verb": 1,
@@ -10506,7 +10506,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -10533,7 +10533,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -10560,7 +10560,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -10587,7 +10587,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -10614,7 +10614,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "B2"
                     ],
@@ -10651,7 +10651,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -10682,7 +10682,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -10709,7 +10709,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -10728,7 +10728,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -10755,7 +10755,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": 1,
                     "concrete": false,
@@ -10783,7 +10783,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": 1,
                     "concrete": false,
@@ -10817,10 +10817,10 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.09090909090909091,
-                "ratio_named_entities_per_verb": 0.5,
-                "total_token_ratio_named_entities": 0.45454545454545453,
-                "max_size_named_entities": 8,
+                "ratio_named_entities_per_token": 0.045454545454545456,
+                "ratio_named_entities_per_verb": 0.25,
+                "total_token_ratio_named_entities": 0.09090909090909091,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 3,
                 "max_size_subordination": 2,
                 "words_before_verb": 3,

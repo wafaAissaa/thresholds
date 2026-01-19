@@ -21,10 +21,10 @@
         "ratio_aux_verbs_per_verb": 0.0,
         "total_token_ratio_aux_verbs": 0.0,
         "max_size_aux_verbs": 0,
-        "ratio_named_entities_per_token": 0.12878787878787878,
-        "ratio_named_entities_per_verb": 0.68,
-        "total_token_ratio_named_entities": 0.5303030303030303,
-        "max_size_named_entities": 9,
+        "ratio_named_entities_per_token": 0.0,
+        "ratio_named_entities_per_verb": 0.0,
+        "total_token_ratio_named_entities": 0.0,
+        "max_size_named_entities": 0,
         "ratio_subordination_per_token": 0.15151515151515152,
         "ratio_subordination_per_verb": 0.8,
         "total_token_ratio_subordination": 0.8787878787878788,
@@ -54,7 +54,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -89,7 +89,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -116,7 +116,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [],
@@ -143,7 +143,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [],
                     "np_pp_modifiers": {
                         "ids": [
@@ -166,7 +166,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -193,7 +193,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -220,7 +220,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -247,7 +247,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -524,7 +524,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -706,7 +706,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -963,7 +963,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -1184,7 +1184,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -1227,7 +1227,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "B5",
                         "B6"
@@ -1257,7 +1257,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I5",
                         "I6"
@@ -1287,7 +1287,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I5",
                         "I6"
@@ -1309,7 +1309,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -1346,7 +1346,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I5",
                         "B7",
@@ -1442,7 +1442,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I5",
                         "I7",
@@ -1470,7 +1470,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -1509,7 +1509,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I5",
                         "I7",
@@ -1533,7 +1533,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -1728,7 +1728,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -1769,7 +1769,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "B12",
                         "B13"
@@ -1799,7 +1799,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I12",
                         "I13"
@@ -1829,7 +1829,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I12",
                         "I13"
@@ -1859,7 +1859,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I12",
                         "I13"
@@ -1885,7 +1885,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -1928,7 +1928,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I12",
                         "B14"
@@ -1958,7 +1958,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I12",
                         "I14"
@@ -1988,7 +1988,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I12",
                         "I14"
@@ -2010,7 +2010,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -2051,7 +2051,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "B15",
                         "B16",
@@ -2082,7 +2082,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I16",
@@ -2113,7 +2113,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I16",
@@ -2150,7 +2150,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I16",
@@ -2181,7 +2181,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I16",
@@ -2208,7 +2208,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -2253,7 +2253,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I16",
@@ -2276,7 +2276,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -2284,7 +2284,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I16",
@@ -2315,7 +2315,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I16",
@@ -2338,7 +2338,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -2381,7 +2381,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "B19"
@@ -2411,7 +2411,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I19"
@@ -2441,7 +2441,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I19"
@@ -2477,7 +2477,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I19"
@@ -2507,7 +2507,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I15",
                         "I19"
@@ -2533,7 +2533,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -2568,7 +2568,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "B20"
                     ],
@@ -2597,7 +2597,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20"
                     ],
@@ -2626,7 +2626,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20"
                     ],
@@ -2655,7 +2655,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20"
                     ],
@@ -2684,7 +2684,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20"
                     ],
@@ -2713,7 +2713,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20"
                     ],
@@ -2742,7 +2742,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20"
                     ],
@@ -2771,7 +2771,7 @@
                     "passive": "O",
                     "clitic_type": "preclitic",
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "B21"
@@ -2808,7 +2808,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "I21"
@@ -2830,7 +2830,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -2867,7 +2867,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "B22"
@@ -2889,7 +2889,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -2932,7 +2932,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "B23"
@@ -2962,7 +2962,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "I23"
@@ -2992,7 +2992,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "I23"
@@ -3022,7 +3022,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "I23"
@@ -3056,7 +3056,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "I23"
@@ -3086,7 +3086,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "I23"
@@ -3116,7 +3116,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I20",
                         "I23"
@@ -3138,7 +3138,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -3180,7 +3180,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "B24",
                         "B25",
@@ -3211,7 +3211,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I25",
@@ -3242,7 +3242,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I25",
@@ -3273,7 +3273,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I25",
@@ -3300,7 +3300,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -3308,7 +3308,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I25",
@@ -3339,7 +3339,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I25",
@@ -3370,7 +3370,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I25",
@@ -3393,7 +3393,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -3437,7 +3437,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I25"
@@ -3553,7 +3553,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -3596,7 +3596,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "B27"
@@ -3626,7 +3626,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I27"
@@ -3656,7 +3656,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I27"
@@ -3746,7 +3746,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I27"
@@ -3782,7 +3782,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I24",
                         "I27"
@@ -3804,7 +3804,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -3845,7 +3845,7 @@
                     },
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "B28",
                         "B29"
@@ -3875,7 +3875,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I28",
                         "I29"
@@ -3905,7 +3905,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I28",
                         "I29"
@@ -3935,7 +3935,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I28",
                         "I29"
@@ -3957,7 +3957,7 @@
                     "ortho_neighbors_+freq_cum": "na",
                     "age_of_acquisition": -1,
                     "familiarity": -1,
-                    "lexical_frequency": 1e-10,
+                    "lexical_frequency": "na",
                     "complexity": "na",
                     "hapax_legomena_lemma": "na",
                     "concrete": false,
@@ -3994,7 +3994,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "B",
+                    "named_entities": "O",
                     "subordination": [
                         "I28"
                     ],
@@ -4023,7 +4023,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I28"
                     ],
@@ -4052,7 +4052,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I28"
                     ],
@@ -4081,7 +4081,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I28"
                     ],
@@ -4116,7 +4116,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I28"
                     ],
@@ -4145,7 +4145,7 @@
                     "passive": "O",
                     "clitic_type": false,
                     "aux_verbs": "O",
-                    "named_entities": "I",
+                    "named_entities": "O",
                     "subordination": [
                         "I28"
                     ],
@@ -4176,10 +4176,10 @@
                 "ratio_aux_verbs_per_verb": 0.0,
                 "total_token_ratio_aux_verbs": 0.0,
                 "max_size_aux_verbs": 0,
-                "ratio_named_entities_per_token": 0.12878787878787878,
-                "ratio_named_entities_per_verb": 0.68,
-                "total_token_ratio_named_entities": 0.5303030303030303,
-                "max_size_named_entities": 9,
+                "ratio_named_entities_per_token": 0.0,
+                "ratio_named_entities_per_verb": 0.0,
+                "total_token_ratio_named_entities": 0.0,
+                "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 3,
                 "max_size_subordination": 20,
                 "words_before_verb": 0,

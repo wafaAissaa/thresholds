@@ -7,12 +7,12 @@ sentence-sentence-token-level/max_size_subordination,3.0,4.0,4.0,5.0
 sentence-sentence-token-level/max_size_coordination,1.0,1.0,1.0,1.0
 document-document-token-level/total_token_ratio_aux_verbs,0.0,0.0,0.00888,0.01298
 document-document-token-level/total_token_ratio_passive,0.0,0.0,0.0,0.0
-document-document-token-level/total_token_ratio_named_entities,0.05635,0.04099,0.03911,0.0342
+document-document-token-level/total_token_ratio_named_entities,0.0,0.0109,0.01316,0.0143
 document-document-token-level/total_token_ratio_subordination,0.0201,0.13411,0.20672,0.3174
 document-document-token-level/ratio_clitic_per_token,0.0,0.02152,0.01917,0.02895
 document-document-token-level/ratio_post_clitic_pronouns_per_token,0.0,0.0,0.0,0.0
 document-document-token-level/ratio_pre_clitic_pronouns_per_token,0.0,0.0188,0.0176,0.02895
-document-document-token-level/ratio_named_entities_per_token,0.03098,0.02694,0.02439,0.01997
+document-document-token-level/ratio_named_entities_per_token,0.0,0.00857,0.00998,0.01117
 document-document-token-level/ratio_aux_verbs_per_token,0.0,0.0,0.00444,0.00498
 document-document-token-level/ratio_subordination_per_token,0.00574,0.02577,0.03174,0.04189
 document-document-token-level/ratio_passive_per_token,0.0,0.0,0.0,0.0
