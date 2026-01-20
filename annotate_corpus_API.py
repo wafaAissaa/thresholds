@@ -30,12 +30,12 @@ for _, row in tqdm(df.iterrows(), total=len(df), desc="Processing rows"):
     text_indice = row["text_indice"]
     r = requests.post(url="https://cental.uclouvain.be/iread4skills/annotator/", json={"raw_text": text})
     final_json = json.loads(r.text)
-    result = find_ratio(final_json)
-    if result:
-        key, value = result
-        print(f"This id has a ratio > 1: {text_indice} ({key} = {value})")
+    #result = find_ratio(final_json)
+    #if result:
+    #    key, value = result
+    #    print(f"This id has a ratio > 1: {text_indice} ({key} = {value})")
     with open('./outputs/%s.json' %text_indice, 'w', encoding='utf-8') as f:
         json.dump(final_json, f, ensure_ascii=False, indent=4)
 
 
-ids_ratio_bt_one = [1121, 1035, 128, 1455, 1093, 1879, 272]
+#ids_ratio_bt_one = [1121, 1035, 128, 1455, 1093, 1879, 272]
