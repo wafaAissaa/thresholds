@@ -25,7 +25,7 @@ document-document-token-level/ratio_passive_per_verb,0.0,0.0,0.02222,0.03087
 document-document-token-level/ratio_coordination_per_token,0.03279,0.03642,0.03576,0.03509
 document-document-token-level/total_token_ratio_coordination,0.04135,0.04751,0.0458,0.04574
 sentence-sentence-sentence-level/parse_depth,4.0,4.0,5.0,5.0
-sentence-sentence-sentence-level/words_after_verb,2.0,2.0,3.0,3.0
+sentence-sentence-sentence-level/words_after_verb,1.0,2.0,2.0,2.0
 sentence-sentence-sentence-level/words_before_verb,2.0,2.0,2.0,2.0
 sentence-sentence-sentence-level/sentence_length,10.0,14.0,17.0,20.0
 document-document-document-level/word_count,84.2,202.0,249.6,302.0

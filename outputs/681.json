@@ -9696,7 +9696,7 @@
                 "max_size_np_pp_modifiers": 8,
                 "max_size_subordination": 14,
                 "words_before_verb": 1,
-                "words_after_verb": 3
+                "words_after_verb": 2
             }
         }
     },

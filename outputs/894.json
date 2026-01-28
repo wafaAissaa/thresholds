@@ -406,7 +406,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 9,
                 "words_before_verb": 3,
-                "words_after_verb": 4
+                "words_after_verb": 2
             }
         },
         "1": {
@@ -656,8 +656,8 @@
                 "max_size_named_entities": 1,
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 0,
-                "words_before_verb": 4,
-                "words_after_verb": 2
+                "words_before_verb": 3,
+                "words_after_verb": 1
             }
         },
         "2": {
@@ -909,7 +909,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 3,
                 "words_before_verb": 3,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "3": {
@@ -1105,7 +1105,7 @@
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 0,
                 "words_before_verb": 4,
-                "words_after_verb": 1
+                "words_after_verb": 0
             }
         },
         "4": {
@@ -1531,7 +1531,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 6,
                 "words_before_verb": 2,
-                "words_after_verb": 4
+                "words_after_verb": 3
             }
         },
         "5": {
@@ -1789,7 +1789,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 6,
                 "words_before_verb": 5,
-                "words_after_verb": 1
+                "words_after_verb": 0
             }
         },
         "6": {
@@ -2015,7 +2015,7 @@
                 "max_size_np_pp_modifiers": 2,
                 "max_size_subordination": 0,
                 "words_before_verb": 0,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "7": {
@@ -2185,8 +2185,8 @@
                 "max_size_named_entities": 1,
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 0,
-                "words_before_verb": 1,
-                "words_after_verb": 3
+                "words_before_verb": 0,
+                "words_after_verb": 1
             }
         },
         "8": {
@@ -3049,7 +3049,7 @@
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 0,
                 "words_before_verb": 0,
-                "words_after_verb": 5
+                "words_after_verb": 4
             }
         },
         "10": {
@@ -3503,7 +3503,7 @@
                 "max_size_np_pp_modifiers": 2,
                 "max_size_subordination": 0,
                 "words_before_verb": 2,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "11": {
@@ -3815,7 +3815,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 3,
                 "words_before_verb": 2,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "12": {
@@ -3953,7 +3953,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 0,
                 "words_before_verb": 2,
-                "words_after_verb": 1
+                "words_after_verb": 0
             }
         },
         "13": {
@@ -4300,7 +4300,7 @@
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 5,
                 "words_before_verb": 3,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "14": {
@@ -4438,7 +4438,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 0,
                 "words_before_verb": 2,
-                "words_after_verb": 1
+                "words_after_verb": 0
             }
         },
         "15": {
@@ -4643,7 +4643,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 3,
                 "words_before_verb": 1,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "16": {
@@ -5001,7 +5001,7 @@
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 0,
                 "words_before_verb": 3,
-                "words_after_verb": 5
+                "words_after_verb": 4
             }
         },
         "17": {
@@ -5289,8 +5289,8 @@
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 7,
-                "words_before_verb": 4,
-                "words_after_verb": 2
+                "words_before_verb": 3,
+                "words_after_verb": 1
             }
         },
         "18": {
@@ -5621,7 +5621,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 2,
                 "words_before_verb": 2,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "19": {
@@ -5759,7 +5759,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 0,
                 "words_before_verb": 2,
-                "words_after_verb": 1
+                "words_after_verb": 0
             }
         },
         "20": {
@@ -6068,7 +6068,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 0,
                 "words_before_verb": 1,
-                "words_after_verb": 3
+                "words_after_verb": 2
             }
         },
         "21": {
@@ -6640,7 +6640,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 0,
                 "words_before_verb": 1,
-                "words_after_verb": 1
+                "words_after_verb": 0
             }
         },
         "23": {
@@ -6805,7 +6805,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 0,
                 "words_before_verb": 1,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "24": {
@@ -6943,7 +6943,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 0,
                 "words_before_verb": 1,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "25": {
@@ -7139,7 +7139,7 @@
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 0,
                 "words_before_verb": 1,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "26": {
@@ -7454,8 +7454,8 @@
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 6,
-                "words_before_verb": 2,
-                "words_after_verb": 2
+                "words_before_verb": 1,
+                "words_after_verb": 1
             }
         },
         "27": {
@@ -7711,7 +7711,7 @@
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 3,
                 "words_before_verb": 3,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "28": {
@@ -7991,8 +7991,8 @@
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 4,
-                "words_before_verb": 3,
-                "words_after_verb": 2
+                "words_before_verb": 2,
+                "words_after_verb": 1
             }
         },
         "29": {
@@ -8296,7 +8296,7 @@
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 0,
                 "words_before_verb": 2,
-                "words_after_verb": 3
+                "words_after_verb": 2
             }
         },
         "30": {
@@ -8729,8 +8729,8 @@
                 "max_size_named_entities": 0,
                 "max_size_np_pp_modifiers": 1,
                 "max_size_subordination": 7,
-                "words_before_verb": 2,
-                "words_after_verb": 3
+                "words_before_verb": 1,
+                "words_after_verb": 2
             }
         },
         "31": {
@@ -8868,7 +8868,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 0,
                 "words_before_verb": 2,
-                "words_after_verb": 1
+                "words_after_verb": 0
             }
         },
         "32": {
@@ -9122,7 +9122,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 4,
                 "words_before_verb": 0,
-                "words_after_verb": 4
+                "words_after_verb": 2
             }
         },
         "33": {
@@ -9368,7 +9368,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 0,
                 "words_before_verb": 2,
-                "words_after_verb": 3
+                "words_after_verb": 2
             }
         },
         "34": {
@@ -9740,7 +9740,7 @@
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 3,
                 "words_before_verb": 2,
-                "words_after_verb": 4
+                "words_after_verb": 3
             }
         },
         "35": {

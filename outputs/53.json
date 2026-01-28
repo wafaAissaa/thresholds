@@ -1480,7 +1480,7 @@
                 "max_size_np_pp_modifiers": 5,
                 "max_size_subordination": 7,
                 "words_before_verb": 3,
-                "words_after_verb": 3
+                "words_after_verb": 2
             }
         },
         "2": {
@@ -2219,7 +2219,7 @@
                 "max_size_np_pp_modifiers": 11,
                 "max_size_subordination": 0,
                 "words_before_verb": 4,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "3": {
@@ -2669,8 +2669,8 @@
                 "max_size_named_entities": 2,
                 "max_size_np_pp_modifiers": 0,
                 "max_size_subordination": 4,
-                "words_before_verb": 4,
-                "words_after_verb": 4
+                "words_before_verb": 3,
+                "words_after_verb": 2
             }
         },
         "4": {
@@ -3462,7 +3462,7 @@
                 "max_size_np_pp_modifiers": 2,
                 "max_size_subordination": 23,
                 "words_before_verb": 5,
-                "words_after_verb": 3
+                "words_after_verb": 1
             }
         },
         "5": {
@@ -5323,7 +5323,7 @@
                 "max_size_np_pp_modifiers": 2,
                 "max_size_subordination": 0,
                 "words_before_verb": 3,
-                "words_after_verb": 3
+                "words_after_verb": 2
             }
         },
         "7": {
@@ -6062,7 +6062,7 @@
                 "max_size_np_pp_modifiers": 3,
                 "max_size_subordination": 15,
                 "words_before_verb": 1,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "8": {
@@ -6675,7 +6675,7 @@
                 "max_size_np_pp_modifiers": 4,
                 "max_size_subordination": 17,
                 "words_before_verb": 3,
-                "words_after_verb": 2
+                "words_after_verb": 1
             }
         },
         "9": {
@@ -7464,8 +7464,8 @@
                 "max_size_named_entities": 2,
                 "max_size_np_pp_modifiers": 2,
                 "max_size_subordination": 15,
-                "words_before_verb": 3,
-                "words_after_verb": 6
+                "words_before_verb": 2,
+                "words_after_verb": 3
             }
         },
         "10": {

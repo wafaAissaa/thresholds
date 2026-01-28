@@ -4921,7 +4921,7 @@
                 "max_size_named_entities": 1,
                 "max_size_np_pp_modifiers": 11,
                 "max_size_subordination": 7,
-                "words_before_verb": 4,
+                "words_before_verb": 3,
                 "words_after_verb": 4
             }
         },
